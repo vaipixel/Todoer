@@ -2,6 +2,15 @@
   "object": {
     "pins": [
       {
+        "package": "FloatingButton",
+        "repositoryURL": "https://github.com/exyte/FloatingButton.git",
+        "state": {
+          "branch": "master",
+          "revision": "c7b4e753286f0462a0adcb23a6fac7d94917b605",
+          "version": null
+        }
+      },
+      {
         "package": "Drawer",
         "repositoryURL": "https://github.com/maustinstar/swiftui-drawer",
         "state": {

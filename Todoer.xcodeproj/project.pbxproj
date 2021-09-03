@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50037B626E20CF900C529C0 /* TaskList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50037B526E20CF900C529C0 /* TaskList.swift */; };
+		F50037B926E20D9600C529C0 /* AddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50037B826E20D9600C529C0 /* AddTask.swift */; };
+		F5259D8526E1EB520090EC55 /* FloatingButton in Frameworks */ = {isa = PBXBuildFile; productRef = F5259D8426E1EB520090EC55 /* FloatingButton */; };
+		F5259D8826E1FDA70090EC55 /* HomeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5259D8726E1FDA70090EC55 /* HomeHeader.swift */; };
+		F5259D8A26E1FDC00090EC55 /* HomePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5259D8926E1FDC00090EC55 /* HomePicker.swift */; };
+		F5259D8C26E1FF280090EC55 /* CategoryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5259D8B26E1FF280090EC55 /* CategoryList.swift */; };
 		F559D97826E0A99400F5FDBF /* TodoerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F559D97726E0A99400F5FDBF /* TodoerApp.swift */; };
 		F559D97A26E0A99400F5FDBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F559D97926E0A99400F5FDBF /* ContentView.swift */; };
 		F559D97C26E0A99500F5FDBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F559D97B26E0A99500F5FDBF /* Assets.xcassets */; };
@@ -15,7 +21,11 @@
 		F559D98426E0A99500F5FDBF /* Todoer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F559D98226E0A99500F5FDBF /* Todoer.xcdatamodeld */; };
 		F559D98F26E0A99500F5FDBF /* TodoerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F559D98E26E0A99500F5FDBF /* TodoerTests.swift */; };
 		F559D99A26E0A99500F5FDBF /* TodoerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F559D99926E0A99500F5FDBF /* TodoerUITests.swift */; };
+		F589D04E26E1C91D0048FF96 /* AddCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F589D04D26E1C91D0048FF96 /* AddCategory.swift */; };
 		F5C74FDA26E0FF4D0084084C /* Drawer in Frameworks */ = {isa = PBXBuildFile; productRef = F5C74FD926E0FF4D0084084C /* Drawer */; };
+		F5C74FDF26E111030084084C /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C74FDE26E111030084084C /* CategoryItem.swift */; };
+		F5C74FE126E111100084084C /* TaskItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C74FE026E111100084084C /* TaskItem.swift */; };
+		F5C8C48A26E157DF00C7BD11 /* PathForCurve.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8C48926E157DF00C7BD11 /* PathForCurve.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F50037B526E20CF900C529C0 /* TaskList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskList.swift; sourceTree = "<group>"; };
+		F50037B826E20D9600C529C0 /* AddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTask.swift; sourceTree = "<group>"; };
+		F5259D8726E1FDA70090EC55 /* HomeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeader.swift; sourceTree = "<group>"; };
+		F5259D8926E1FDC00090EC55 /* HomePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePicker.swift; sourceTree = "<group>"; };
+		F5259D8B26E1FF280090EC55 /* CategoryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryList.swift; sourceTree = "<group>"; };
 		F559D97426E0A99400F5FDBF /* Todoer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F559D97726E0A99400F5FDBF /* TodoerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoerApp.swift; sourceTree = "<group>"; };
 		F559D97926E0A99400F5FDBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +65,10 @@
 		F559D99526E0A99500F5FDBF /* TodoerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F559D99926E0A99500F5FDBF /* TodoerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoerUITests.swift; sourceTree = "<group>"; };
 		F559D99B26E0A99500F5FDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F589D04D26E1C91D0048FF96 /* AddCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategory.swift; sourceTree = "<group>"; };
+		F5C74FDE26E111030084084C /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		F5C74FE026E111100084084C /* TaskItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItem.swift; sourceTree = "<group>"; };
+		F5C8C48926E157DF00C7BD11 /* PathForCurve.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathForCurve.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5259D8526E1EB520090EC55 /* FloatingButton in Frameworks */,
 				F5C74FDA26E0FF4D0084084C /* Drawer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F50037B726E20D8B00C529C0 /* AddTask */ = {
+			isa = PBXGroup;
+			children = (
+				F50037B826E20D9600C529C0 /* AddTask.swift */,
+			);
+			path = AddTask;
+			sourceTree = "<group>";
+		};
+		F5259D8626E1FD940090EC55 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F5259D8726E1FDA70090EC55 /* HomeHeader.swift */,
+				F5259D8926E1FDC00090EC55 /* HomePicker.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		F559D96B26E0A99400F5FDBF = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +138,7 @@
 		F559D97626E0A99400F5FDBF /* Todoer */ = {
 			isa = PBXGroup;
 			children = (
+				F5C8C48626E1570800C7BD11 /* Utils */,
 				F5C74FDB26E10EE10084084C /* View */,
 				F559D9C726E0F24100F5FDBF /* Entities */,
 				F559D97726E0A99400F5FDBF /* TodoerApp.swift */,
@@ -147,9 +185,20 @@
 			path = Entities;
 			sourceTree = "<group>";
 		};
+		F589D04C26E1C90B0048FF96 /* AddCategory */ = {
+			isa = PBXGroup;
+			children = (
+				F589D04D26E1C91D0048FF96 /* AddCategory.swift */,
+			);
+			path = AddCategory;
+			sourceTree = "<group>";
+		};
 		F5C74FDB26E10EE10084084C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				F50037B726E20D8B00C529C0 /* AddTask */,
+				F5259D8626E1FD940090EC55 /* Home */,
+				F589D04C26E1C90B0048FF96 /* AddCategory */,
 				F5C74FDD26E10F040084084C /* Task */,
 				F5C74FDC26E10EF80084084C /* Category */,
 			);
@@ -159,6 +208,8 @@
 		F5C74FDC26E10EF80084084C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				F5C74FDE26E111030084084C /* CategoryItem.swift */,
+				F5259D8B26E1FF280090EC55 /* CategoryList.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -166,8 +217,18 @@
 		F5C74FDD26E10F040084084C /* Task */ = {
 			isa = PBXGroup;
 			children = (
+				F5C74FE026E111100084084C /* TaskItem.swift */,
+				F50037B526E20CF900C529C0 /* TaskList.swift */,
 			);
 			path = Task;
+			sourceTree = "<group>";
+		};
+		F5C8C48626E1570800C7BD11 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8C48926E157DF00C7BD11 /* PathForCurve.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +249,7 @@
 			name = Todoer;
 			packageProductDependencies = (
 				F5C74FD926E0FF4D0084084C /* Drawer */,
+				F5259D8426E1EB520090EC55 /* FloatingButton */,
 			);
 			productName = Todoer;
 			productReference = F559D97426E0A99400F5FDBF /* Todoer.app */;
@@ -237,6 +299,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = Vaipixel;
 				TargetAttributes = {
 					F559D97326E0A99400F5FDBF = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -262,6 +325,7 @@
 			mainGroup = F559D96B26E0A99400F5FDBF;
 			packageReferences = (
 				F5C74FD826E0FF4D0084084C /* XCRemoteSwiftPackageReference "swiftui-drawer" */,
+				F5259D8326E1EB520090EC55 /* XCRemoteSwiftPackageReference "FloatingButton" */,
 			);
 			productRefGroup = F559D97526E0A99400F5FDBF /* Products */;
 			projectDirPath = "";
@@ -305,9 +369,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50037B626E20CF900C529C0 /* TaskList.swift in Sources */,
+				F5259D8C26E1FF280090EC55 /* CategoryList.swift in Sources */,
 				F559D98426E0A99500F5FDBF /* Todoer.xcdatamodeld in Sources */,
+				F5C74FE126E111100084084C /* TaskItem.swift in Sources */,
+				F5259D8A26E1FDC00090EC55 /* HomePicker.swift in Sources */,
+				F5C8C48A26E157DF00C7BD11 /* PathForCurve.swift in Sources */,
+				F589D04E26E1C91D0048FF96 /* AddCategory.swift in Sources */,
 				F559D98126E0A99500F5FDBF /* Persistence.swift in Sources */,
+				F5259D8826E1FDA70090EC55 /* HomeHeader.swift in Sources */,
 				F559D97A26E0A99400F5FDBF /* ContentView.swift in Sources */,
+				F50037B926E20D9600C529C0 /* AddTask.swift in Sources */,
+				F5C74FDF26E111030084084C /* CategoryItem.swift in Sources */,
 				F559D97826E0A99400F5FDBF /* TodoerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -630,6 +703,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F5259D8326E1EB520090EC55 /* XCRemoteSwiftPackageReference "FloatingButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/FloatingButton.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		F5C74FD826E0FF4D0084084C /* XCRemoteSwiftPackageReference "swiftui-drawer" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/maustinstar/swiftui-drawer";
@@ -641,6 +722,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F5259D8426E1EB520090EC55 /* FloatingButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5259D8326E1EB520090EC55 /* XCRemoteSwiftPackageReference "FloatingButton" */;
+			productName = FloatingButton;
+		};
 		F5C74FD926E0FF4D0084084C /* Drawer */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F5C74FD826E0FF4D0084084C /* XCRemoteSwiftPackageReference "swiftui-drawer" */;
